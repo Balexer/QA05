@@ -6,8 +6,8 @@ public class Task_4 {
         int b = 6;
         int schetchik;
         int proizvedenie = 0;
-        for (schetchik=0;schetchik!=b;schetchik++) {
-            proizvedenie=a+proizvedenie;
+        for (schetchik=0;schetchik!=b;schetchik++) { // for (int schetchik=0; ...
+            proizvedenie=a+proizvedenie; // proizvedenie += a;
         }
         System.out.println("A*B = " + proizvedenie);
     }
