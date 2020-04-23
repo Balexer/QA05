@@ -4,6 +4,8 @@ public class Task_8 {
     public static void main(String[] args) {
         int x = 0;
         int sum = 0;
+        
+        // посчитать сумму четных и нечетных можно за 1 цикл по диапазону чисел. пока не оптимально выполнена задача
         while (x<100) {
             x = x + 2;
             sum = sum + x;
