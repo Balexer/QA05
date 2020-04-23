@@ -8,9 +8,7 @@ public class Task_5 {
             System.out.println(array[i]);
         }
         for (int i = 1; i <= array.length / 2; i++) {
-            int tmp = array[i - 1];
-            array[i - 1] = array[array.length - i];
-            array[array.length - i] = tmp;
+           swap(i-1,array.length - i, array);
         }
         System.out.println("================");
         for (int i = 0; i < array.length; i++) {
@@ -18,5 +16,11 @@ public class Task_5 {
         }
 
     }
+
+    public static void swap(int left, int right, int[] array) {
+
+        int tmp = array[left];
+        array[left] = array[right];
+        array[right] = tmp;
+    }
 }
-//
