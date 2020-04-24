@@ -12,6 +12,7 @@ public class Task_6 {
             }
         }
 
+        // логику переноса чисел в отдельный метод
         // arrayZ - переименуй
         int[] arrayZ = new int[schet];
         int num = 0;
