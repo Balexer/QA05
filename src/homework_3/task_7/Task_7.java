@@ -5,6 +5,7 @@ import java.util.Arrays;
 public class Task_7 {
     public static void main(String[] args) {
         int [] array = new int[5];
+        // заполнение в отдельный метод
         for (int i = 0; i < array.length; i++) {
             array[i] = (int)(Math.random()*(array.length+1));
         }
@@ -14,6 +15,7 @@ public class Task_7 {
             toSort = false;
             for (int i = 1; i < array.length; i++) {
                 if (array[i - 1] > array[i]) {
+                    // перестановку местами в отдельный метод
                     int tmp = array[i];
                     array[i] = array[i-1];
                     array[i-1] = tmp;
@@ -25,4 +27,4 @@ public class Task_7 {
     }
 
 }
-//
+// - перед отправкой ДЗ очищай код от такого
