@@ -18,15 +18,19 @@ public class Apple {
     public String getName() {
         return name;
     }
+
     public Integer getAge() {
         return age;
     }
+
     public String show() {
         return "name = " + this.name + "; " + "age = " + this.age + "; ";
     }
+
     public String showForText() {
         return text;
     }
+
     public void setText(String text) {
         this.text = text;
     }
