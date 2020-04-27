@@ -2,6 +2,7 @@ package homework_3.task_3;
 import java.util.Scanner;
 import java.util.Arrays;
 
+// не забывай форматировать код
 public class Task_3 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
@@ -10,9 +11,11 @@ public class Task_3 {
         for (int i=0;i<array.length;i++) {
             array[i] = scan.nextInt();
         }
+        
+        // логику по замене в отдельный метод
         int ostatok;
         for (int i = 0; i < array.length;i++) {
-            ostatok=i%2;
+            ostatok=i%2; // думаю 16-17 строки можно объеденить
             if (ostatok == 0) {
                 array[i] = 0;
             }
@@ -21,4 +24,4 @@ public class Task_3 {
     }
 
 }
-//
+// - перед отправкой ДЗ очищай код от такого

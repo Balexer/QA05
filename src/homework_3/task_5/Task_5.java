@@ -14,11 +14,11 @@ public class Task_5 {
         for (int i = 0; i < array.length; i++) {
             System.out.println(array[i]);
         }
-
+// пустая строка не нужна
     }
 
     public static void swap(int left, int right, int[] array) {
-
+// пустая строка не нужна
         int tmp = array[left];
         array[left] = array[right];
         array[right] = tmp;

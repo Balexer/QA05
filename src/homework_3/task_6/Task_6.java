@@ -4,6 +4,7 @@ import java.util.Arrays;
 public class Task_6 {
     public static void main(String[] args) {
         int[] array = {8, 2, 4, 3, 6};
+        // schet -> evenNumbers
         int schet = 0;
         for (int i = 0; i < array.length; i++) {
             if (array[i] % 2 == 0) {
@@ -11,6 +12,8 @@ public class Task_6 {
             }
         }
 
+        // логику переноса чисел в отдельный метод
+        // arrayZ - переименуй
         int[] arrayZ = new int[schet];
         int num = 0;
         for (int i = 0; i < array.length; i++) {
@@ -20,8 +23,8 @@ public class Task_6 {
             }
         }
             System.out.println(Arrays.toString(arrayZ));
-
-
+// пустая строка не нужна
+// пустая строка не нужна
     }
 }
-//
+// - перед отправкой ДЗ очищай код от такого
