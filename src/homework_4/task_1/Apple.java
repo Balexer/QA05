@@ -5,8 +5,8 @@ import java.util.Objects;
 public class Apple {
    private String name;
    private Integer age;
-   // я вроде вам еще не показывал константы, но правильно будет использовать final + caps lock
-   //private static final String STATIC_BLOCK_MESSAGE = "Hello from static";
+   
+   // static поля идут раньше обычных
    private static String text = "Hello from static";
 
     public Apple(String name, Integer age) {
