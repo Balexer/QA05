@@ -10,12 +10,12 @@ public class Comp_1 implements Computer {
     @Override
     public void powerOff() {
         System.out.println("Computer shut down");
-
+//  пустая строка не нужна
     }
 
     @Override
     public void reset() {
         System.out.println("reset");
-
+//  пустая строка не нужна
     }
 }
