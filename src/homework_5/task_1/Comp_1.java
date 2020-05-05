@@ -1,5 +1,6 @@
 package homework_5.task_1;
 
+// Comp_1 - я думаю название стоит поменять. Есть же много марок компьютеров
 public class Comp_1 implements Computer {
     @Override
     public void powerOn() {
