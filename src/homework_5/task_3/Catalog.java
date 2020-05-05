@@ -2,6 +2,9 @@ package homework_5.task_3;
 
 // внутри класса Catalog должен быть массив домов, а класс с методом мейн в другом месте
 public class Catalog {
+    // private House[] newHouse;
+    
+    // constructor
     public static void main(String[] args) {
         House[] newHouse = new House[3];
         newHouse[0] = new House(3, true, 5);
