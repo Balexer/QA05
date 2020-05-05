@@ -11,6 +11,10 @@ public class MainWarehouse {
         System.out.println(warehouse);
         warehouse.next();
         Integer[] test = warehouse.getArray();
+        /* а теперь след строкой
+        test[0] = 333;
+        проверяй
+        */
         System.out.println(Arrays.toString(test));
     }
 }
