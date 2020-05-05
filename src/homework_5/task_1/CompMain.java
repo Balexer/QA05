@@ -6,6 +6,6 @@ public class CompMain {
         testComp.powerOn();
         testComp.powerOff();
         testComp.reset();
-
+//  пустая строка не нужна
     }
 }
