@@ -5,7 +5,7 @@ public class Engine {
     boolean isOn;
     public Engine() {
         this.isOn=false; // поле типа boolean (примитив) по умолчанию будет false, твоя строка лишняя
-    } // абзай
+    } // абзац
     public boolean engineOn() {
         if (isOn) {
             return isOn;
@@ -13,7 +13,7 @@ public class Engine {
             isOn = true;
             return isOn;
         }
-    } // абзай
+    } // абзац
     public boolean engineOff() {
         if (isOn) {
             isOn = false;
