@@ -19,7 +19,7 @@ public class Car {
     }
 
     public void engineOn() {
-        if (engine.getIsOn() == true) {
+        if (engine.getIsOn() == true) { // if (engine.getIsOn()) {
             System.out.println("Двигатель уже работает");
         } else {
             System.out.println("Двигател заведен");
@@ -28,7 +28,7 @@ public class Car {
     }
 
     public void engineOff() {
-        if (engine.getIsOn() == false) {
+        if (engine.getIsOn() == false) { // if (engine.getIsOn()) 
             System.out.println("Двигатель уже выключен");
         } else {
             System.out.println("Двигател заглушен");
