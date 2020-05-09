@@ -1,11 +1,12 @@
 package homework_6.task_2;
 
+// форматируй код
 public class Transmission {
     int transmission;
     int speed;
 
     public Transmission() {
-        this.transmission=0;
+        this.transmission=0; // поле типа int (примитив) по умолчанию будет 0, твоя строка лишняя
     }
     public void transmissionUp() {
         if(transmission<=7) {
