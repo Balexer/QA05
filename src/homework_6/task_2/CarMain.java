@@ -8,7 +8,7 @@ public class CarMain {
         Car car = new Car(engine, transmission);
         car.engineOn();
         car.engineOn();
-        car.shiftUp();
+        car.shiftUp(); // думаю это можно было в цикле сделать
         car.shiftUp();
         car.shiftUp();
         car.shiftUp();
