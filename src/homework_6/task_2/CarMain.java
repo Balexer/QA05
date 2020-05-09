@@ -8,7 +8,7 @@ public class CarMain {
         Car car = new Car(engine, transmission);
         car.engineOn();
         car.engineOn();
-        car.shiftUp(); // думаю это можно было в цикле сделать
+        car.shiftUp(); // а что если написать метод в этом классе, который бы принимал car и вызывал повысить передачу в цикле нужное кол-во раз
         car.shiftUp();
         car.shiftUp();
         car.shiftUp();
