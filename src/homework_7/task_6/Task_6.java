@@ -6,14 +6,17 @@ public class Task_6 {
 
     public static void main(String[] args) {
         String[] array = {"Work", "gold", "war", "main"};
-        int arraySize = 0;
-        int j = 0;
+        int arraySize = 0; // arraySize не очень понятное название, filteredArraySize думаю лучше подойдет
+        int j = 0; // заводи переменную максимально близко к месту ее использования
+        
+                // эту логику в отдельный метод
         for (int i = 0; i < array.length; ++i) {
             if (array[i].toUpperCase().startsWith("W")) {
                 arraySize++;
             }
         }
-        String[] newArray = new String[arraySize];
+        // эту логику в отдельный метод
+        String[] newArray = new String[arraySize]; 
         for (int i = 0; i < array.length; i++) {
             if (array[i].toUpperCase().startsWith("W")) {
                 newArray[j] = array[i];
@@ -21,6 +24,6 @@ public class Task_6 {
             }
         }
         System.out.println(Arrays.toString(newArray));
-
+// пустая строка не нужна
     }
 }
