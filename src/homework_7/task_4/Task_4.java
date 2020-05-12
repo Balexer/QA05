@@ -34,8 +34,7 @@ public class Task_4 {
         int countWord = 0;
 
         for (int i = 0; i> -1; i++) {
-            i = text.indexOf(Word, i); // я думаю в этой строке может быть проблема. 
-            // Попробуй для отладки использовать текст, в котором ты можешь слова сам посчитать
+            i = text.indexOf(Word, i); 
             if (i == -1) {
                 break;
             }
