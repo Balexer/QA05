@@ -7,7 +7,8 @@ import java.util.List;
 public class Task_2 {
     public static void main(String[] args) {
         List<Integer> integers = new ArrayList<>();
-        for (int i = 0; i <= 100; i++) {
+        int countElem = 100;
+        for (int i = 0; i <= countElem; i++) {
             integers.add(0, 1 + i);
 
         }
