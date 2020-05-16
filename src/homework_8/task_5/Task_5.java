@@ -18,11 +18,11 @@ public class Task_5 {
         LinkedList<Integer> linkedInteger = new LinkedList<>();
         add(linkedInteger, quantity);
 
-        Long start1 = System.currentTimeMillis();
+        Long start1 = System.currentTimeMillis(); / start1 -> removeStart
 
         remove(linkedInteger);
 
-        Long finish1 = System.currentTimeMillis();
+        Long finish1 = System.currentTimeMillis(); / finish1 -> removeFinish
 
         System.out.println("Результат проверки LinkedList " + (finish1 - start1));
 
