@@ -2,13 +2,14 @@ package homework_8.task_10;
 
 public class Fruits {
     private Integer weight;
-    private String name;
+    private String name; /абзац
     public Fruits(Integer weight, String name) {
         this.weight = weight;
         this.name = name;
 
     }
 
+    / toString() в конец класса
     @Override
     public String toString() {
         return "Fruits{" +
@@ -17,6 +18,7 @@ public class Fruits {
                 '}';
     }
 
+    // hashCode() в конец перед toString() и где equals?
     @Override
     public int hashCode() {
         return super.hashCode();
