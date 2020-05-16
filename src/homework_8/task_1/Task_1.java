@@ -11,14 +11,16 @@ public class Task_1 {
         inviteList.add("Vasya");
         inviteList.add("Kolia");
         inviteList.add("Fedia");
+        / получение имени от пользователя в отдельный метод
         Scanner scan = new Scanner(System.in);
         System.out.println("Введите свое имя : ");
         name = scan.next();
-        if (inviteList.contains(name) == true) {
+        / "if" в отдельный метод
+        if (inviteList.contains(name) == true) { / if (inviteList.contains(name)) {
             System.out.println("Вы можете пройти");
         } else {
             System.out.println("Вас нет в списках");
         } ;
-
+// абзац не нужен
     }
 }
