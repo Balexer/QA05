@@ -19,10 +19,10 @@ public class Task_6 {
         LinkedList<Integer> linkedIntegers = new LinkedList<>();
         add(linkedIntegers, count);
 
-        Long start1 = System.currentTimeMillis();
+        Long start1 = System.currentTimeMillis(); / start1 -> removeStart
         remove(linkedIntegers);
 
-        Long finish1 = System.currentTimeMillis();
+        Long finish1 = System.currentTimeMillis(); / finish1 -> removeFinish
 
         System.out.println("Результат проверки LinkedList " + (finish1 - start1));
     }
