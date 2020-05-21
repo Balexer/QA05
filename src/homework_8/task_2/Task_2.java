@@ -8,21 +8,25 @@ public class Task_2 {
     public static void main(String[] args) {
         List<Integer> integers = new ArrayList<>();
         int countElem = 100;
-        / заполнение в отдедьный метод
-        for (int i = 0; i <= countElem; i++) {
-            integers.add(0, 1 + i);
+
+       fillingOut(integers,countElem);
+        System.out.println(integers);
+        removeEven(integers);
+        System.out.println(integers);
+    }
+    public static void fillingOut(List<Integer> list, int quantityOfElements) {
+        for (int i = 0; i <= quantityOfElements; i++) {
+            list.add(0, 1 + i);
 
         }
-        System.out.println(integers);
-        / удаление в отедьный метод
-        Iterator<Integer> iterator = integers.iterator();
+    }
+    public static void removeEven(List<Integer> list) {
+        Iterator<Integer> iterator = list.iterator();
         while (iterator.hasNext()) {
             Integer next = iterator.next();
             if (next % 2 == 0) {
                 iterator.remove();
             }
         }
-// абзац думаю здесь не особо нужен
-        System.out.println(integers);
     }
 }

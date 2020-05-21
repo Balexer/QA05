@@ -3,7 +3,8 @@ package homework_8.task_8;
 // старайся в класса-сущностях сразу переопределять методы equals+hashcode
 public class Shop {
     private Integer id;
-    private String name; / абзац
+    private String name;
+
     public Shop(Integer id, String name) {
         this.id = id;
         this.name = name;
